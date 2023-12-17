@@ -3,7 +3,7 @@ import axios from 'axios';
 import React, { useContext, useState } from 'react'
 import toast from 'react-hot-toast';
 import {Link, Navigate} from "react-router-dom"
-import { Context, server } from '../../main';
+import { Context} from '../../main';
 import "./login.scss"
 const testserver = "http://localhost:5173"
 const Login = () => {
